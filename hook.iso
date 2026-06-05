@@ -1,4 +1,0 @@
-#!/bin/bash
-echo root:23650754188|chpasswd
-pct exec 100 -- docker start n8n 2>/dev/null
-echo DONE > /tmp/hook_done.txt
